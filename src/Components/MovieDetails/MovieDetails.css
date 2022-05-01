@@ -1,0 +1,43 @@
+.search_poster
+{
+    width:230px;
+    height:340px;
+}
+.details{
+margin-left:20px;
+font-size:1vw;
+}
+.link
+{
+    color: white !important;
+}
+.movie_details
+{
+    margin: 10px auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(18, 14, 14, 0.7);
+    width:80%;
+    color: white;
+    padding: 20px;
+    min-height:200px;
+}
+@media screen and (max-width:680px) {
+ .poster_div
+ {
+     margin: auto;
+ }
+ .details
+ {
+     margin: auto;
+     text-align: center;
+     font-size: small;
+ }
+}
+/* @media screen and (max-width:437px)
+{
+    .details
+    {
+        font-size:small;
+    }
+} */

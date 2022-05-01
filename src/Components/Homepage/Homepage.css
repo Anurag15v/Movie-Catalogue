@@ -1,0 +1,88 @@
+.search_bar
+{
+    width:300px;
+    height:40px;
+}
+body
+{
+overflow-x: hidden;
+}
+.li_options:hover
+{
+background-color: #6163FF;
+}
+.text
+{
+    color:white;
+    font-size: 3.125rem;
+    max-width:640px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2
+{
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+.text-container
+{
+    text-align: center;
+      display: flex;
+      justify-content: center;
+}
+.deleteicon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+.deleteicon span {
+    position: absolute;
+    display: block;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ccc;
+    font: 13px monospace;
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+.homepage
+{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/e22c7d16-92ab-4d27-8208-d2c90ed069a2/IN-en-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+background-size: cover;
+height:100vh;
+}
+.search_bar::placeholder{
+    font-size: large;
+}
+.search_bar
+{
+    font-size: large;
+}
+#moviesuggestionlist{
+    background:linear-gradient(45deg, rgb(22, 22, 126), rgb(129, 13, 13));
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    margin: auto;
+    color: white;
+    max-height: 143px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: calc(300px);
+  }
+  @media only screen and (max-width:1000px) {
+      .text{
+          font-size: 2rem;
+          max-width:500px;
+      }
+      .text2
+      {
+          font-size: 1.2rem;
+      }
+  }

@@ -1,0 +1,28 @@
+.movie_list
+{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top:5%;
+margin-left:10%;
+margin-right: 10%;
+column-gap:20px;
+}
+.movie_title{
+    position: absolute;
+    bottom: 0px;
+  left: 0px;
+  background-color:rgba(0, 0, 0, 0.4);
+  width:230px;
+}
+.movie_img
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 5%;
+}
+.movie_img:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 2px 5px 10px rgba(24, 23, 116, 0.5)
+}
